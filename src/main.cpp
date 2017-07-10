@@ -4,8 +4,13 @@
 #include "wave.hpp"
 #include <SFML/Audio/Music.hpp>
 #include <SFML/Window/Mouse.hpp>
+//Linha referente para remover o cmd no windows.
+//#include <windows.h>
 int main()
 {
+	//Linhas referentes para remover o cmd no windows.
+	//HWND hWnd = GetConsoleWindow();
+	//ShowWindow( hWnd, SW_HIDE );
     if(!monster::texture_Monster->loadFromFile("textures/Monster/monster.png")){
         std::cout<<"failed to load monster texture";
     }
