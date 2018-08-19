@@ -1,4 +1,4 @@
-# Project done as 'T3' of the Discrete Structures course
+# Project done as 'T3' of the Data Structures course
 
 It's purpose is to experiment with data structures through the development of a game.
 
